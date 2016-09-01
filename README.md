@@ -1,5 +1,9 @@
 # Ian-Jhon.github.io
 
+
+#      $$ \mathscr{ B } $$
+
+
 ##我的[Blog](http://ian-jhon.github.io)
 
 ###目录结构
