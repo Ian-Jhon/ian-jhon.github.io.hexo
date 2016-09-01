@@ -10,7 +10,33 @@ follow: https://ian-jhon.github.io/contact/
 indexContent: true
 permalink: date
 imagelink: http://upload-images.jianshu.io/upload_images/2548020-3406fb0ee1867d77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
-gems: [jekyll-rss]
+gems: [jekyll-rss, jekyll-scholar]
  # This will require each of these gems automatically.
+scholar:
+  style: apa
+  locale: en
 
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 copyright:本博客版权归博主所有。
