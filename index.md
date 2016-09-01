@@ -10,6 +10,5 @@ layout: post
 
 ## 博客平台
 
-本博客通过 [*Jekyll*](http://jekyllrb.com/) 生成，部署在 [*Github*](https://pages.github.com)上。
+本博客通过 [*Jekyll*](http://jekyllrb.com/) 生成，部署在 [*Github*](https://pages.github.com)。
 
-本博客的源码托管在[*Github*](https://github.com/Ian-Jhon/Ian-Jhon.github.io)上，如果有任何改进意见，欢迎讨论。
