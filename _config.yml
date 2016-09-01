@@ -1,2 +1,4 @@
 
 baseurl: /Ian-Jhon.github.io
+
+Include: [/_posts/*]
