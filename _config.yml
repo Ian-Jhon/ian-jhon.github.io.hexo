@@ -1,6 +1,6 @@
 
 Include: [_posts/*]
-markdown: redcarpet
+
 paginate: 10
 title: 云烟阁
 baseurl: /Ian-Jhon.github.io
