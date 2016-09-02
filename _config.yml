@@ -3,12 +3,12 @@ Include: [_posts/*]
 
 paginate: 10
 title: 云烟阁
-baseurl: "/"
+baseurl: /
 author: Ian-Jhon
 aubout: https://ian-jhon.github.io/about/
 follow: https://ian-jhon.github.io/contact/
 indexContent: true
-permalink: /:categories/:month-:day-:year/:title.html
+permalink: pretty
 markdown: redcarpet
 theme: minima
 gems: [jekyll-rss, jekyll-scholar]
