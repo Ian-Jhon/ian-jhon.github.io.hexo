@@ -4,7 +4,7 @@
 #      $$ \mathscr{ B } $$
 
 
-##我的[Blog](http://ian-jhon.github.io)
+##我的[Blog](https://ian-jhon.github.io)
 
 ###目录结构
 ####config.yml:
