@@ -3,7 +3,7 @@ Include: [_posts/*]
 
 paginate: 10
 title: 云烟阁
-baseurl: "/"		#Ian-Jhon.github.io
+baseurl: "/"
 author: Ian-Jhon
 aubout: https://ian-jhon.github.io/about/
 follow: https://ian-jhon.github.io/contact/
