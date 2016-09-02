@@ -10,9 +10,11 @@ follow: https://ian-jhon.github.io/contact/
 indexContent: true
 permalink: pretty
 markdown: redcarpet
-theme: minima
+#theme: minima
+
 gems: [jekyll-rss, jekyll-scholar]
  # This will require each of these gems automatically.
+ 
 scholar:
   style: apa
   locale: en
