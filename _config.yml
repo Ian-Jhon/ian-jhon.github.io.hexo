@@ -1,11 +1,4 @@
 # Site settings
-#Include: [_posts/*]
 
 baseurl: /
-
 permalink: pretty
-#markdown: redcarpet
-
-#gems: [jekyll-rssgenerator, jekyll-scholar]
- # This will require each of these gems automatically.
-copyright:本博客版权归博主所有。
