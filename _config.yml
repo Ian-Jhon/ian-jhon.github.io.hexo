@@ -9,7 +9,8 @@ aubout: https://ian-jhon.github.io/about/
 follow: https://ian-jhon.github.io/contact/
 indexContent: true
 permalink: date
-imagelink: http://upload-images.jianshu.io/upload_images/2548020-3406fb0ee1867d77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+markdown: redcarpet
+theme: minima
 gems: [jekyll-rss, jekyll-scholar]
  # This will require each of these gems automatically.
 scholar:
