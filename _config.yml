@@ -8,7 +8,7 @@ permalink: pretty
 markdown: redcarpet
 #theme: minima
 
-gems: [jekyll-rssgenerator, jekyll-scholar]
+#gems: [jekyll-rssgenerator, jekyll-scholar]
  # This will require each of these gems automatically.
  
 scholar:
