@@ -1,4 +1,12 @@
 # Site settings
 
+title: "云烟阁"
+email: iancheung.office@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  "Ian-Jhon's Blog"
 baseurl: http://www.math-phys.science
+
+# Build settings
 permalink: pretty
+
+copyright:本博客版权归博主所有。
