@@ -1,5 +1,5 @@
 # Site settings
-Include: [_posts/*]
+#Include: [_posts/*]
 
 baseurl: /
 
