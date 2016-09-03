@@ -11,9 +11,7 @@ deploy :
 	git add -A
 	git commit -m "deploy blog"
 	git push -f origin master
-	ian-jhon
 	git checkout source
 	echo "deploy succeed"
 	git push -f origin source
-	ian-jhon
 	echo "push source"
