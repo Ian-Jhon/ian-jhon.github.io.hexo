@@ -1,5 +1,5 @@
 # Site settings
-baseurl: https://www.math-phys.science
+baseurl: http://www.math-phys.science
 
 # Build settings
 permalink: pretty
