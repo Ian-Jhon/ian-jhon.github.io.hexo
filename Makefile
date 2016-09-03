@@ -10,8 +10,10 @@ deploy :
 	cp -r /tmp/_site/* ./
 	git add -A
 	git commit -m "deploy blog"
-	git push origin master
+	git push -f origin master
+	ian-jhon
 	git checkout source
 	echo "deploy succeed"
-	git push origin source
+	git push -f origin source
+	ian-jhon
 	echo "push source"
