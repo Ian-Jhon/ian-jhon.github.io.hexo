@@ -2,7 +2,7 @@
 layout: default
 title: 你好世界
 date: 2016-09-02 00:31:28 +0800
-categories: write
+category: ［一家之言］
 keywords: hello,world,test
 ---
 你好世界

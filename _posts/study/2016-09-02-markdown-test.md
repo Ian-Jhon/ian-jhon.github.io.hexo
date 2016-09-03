@@ -2,7 +2,7 @@
 layout: default
 title: markdown测试
 date: 2016-09-02 09:25:22 +0800
-categories: study
+category: ［古今之变］
 keywords: markdown,test
 ---
 对markdown的测试
