@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 使用 Markdown
-category: read
+category: >究天人之际
 kewords: markdown
 ---
 markdown真好用！
