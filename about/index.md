@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 关于
 ---
 
 ## 开博客的初衷
