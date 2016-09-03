@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: markdown测试
 date: 2016-09-02 09:25:22 +0800
 category: ［通古今之变］

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 使用 Markdown
 category: ［究天人之际］
 kewords: markdown
