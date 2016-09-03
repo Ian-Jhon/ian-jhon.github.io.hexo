@@ -3,3 +3,8 @@ baseurl: http://www.math-phys.science
 
 # Build settings
 permalink: pretty
+markdown: redcarpet
+safe: false
+#pygments: false
+excerpt_separator: "\n\n\n"
+#paginate: 5
