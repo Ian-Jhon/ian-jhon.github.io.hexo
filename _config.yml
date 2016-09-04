@@ -6,7 +6,8 @@ permalink: pretty
 markdown: redcarpet
 highlighter: pygments
 redcarpet:
-  extensions: [ "fenced_code_blocks",
+  extensions: [ "superscript",
+  				"fenced_code_blocks",
                 "hard_wrap",
                 "autolink",
                 "tables",
@@ -14,7 +15,7 @@ redcarpet:
                 "with_toc_data",
                 "highlight",
                 "prettify",
-                "no_intra_emphasis"]
+                "no_intra_emphasis" ]
   # DON'T USE"superscript", never use this with Mathjax,this will cause bug
 safe: false
 #pygments: false
