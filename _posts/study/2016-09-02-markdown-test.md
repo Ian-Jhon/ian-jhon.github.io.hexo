@@ -10,11 +10,13 @@ keywords: markdown,test
 
 ####Mathjax支持
 markdown支持mathjax，但需要加载插件。
+mathjax设置教程[redcarpet](https://senzhangai.github.io/tools/using-mathjax-with-redcarpet-in-jekyll)
+mathjax设置教程[maruku](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
 中文版[入门指南](https://mathjax-chinese-doc.readthedocs.io/en/latest/index.html)
 
 ####测试一下：
 
->MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are \( a=b \) for in-line math, and \[ a=b \] for displayed equations. It also defines the TeX delimiters $$ a=b $$ for displayed equations, but it does not define $ a=b $ as in-line math delimiters.
+>MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are `\( a=b \)` for in-line math, and `\[ a=b \]` for displayed equations. It also defines the TeX delimiters `$$ a=b $$` for displayed equations, but it does not define `$ a=b $` as in-line math delimiters.
 
 \( a=\sqrt{b} \),$ a=b $,\\[ \frac{1}{n^{2}} \\],$$ \frac{1}{n^{2}} $$.
 
