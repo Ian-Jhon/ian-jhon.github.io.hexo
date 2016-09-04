@@ -13,8 +13,10 @@ markdown支持mathjax，但需要加载插件。
 中文版[入门指南](https://mathjax-chinese-doc.readthedocs.io/en/latest/index.html)
 
 #####测试一下：
-MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are \( a=b \) for in-line math, and \[ a=b \] for displayed equations. It also defines the TeX delimiters $$ a=b $$ for displayed equations, but it does not define $ a=b $ as in-line math delimiters.
-\\[ \frac{1}{n^{2}} \\]
+
+>MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are \( a=b \) for in-line math, and \[ a=b \] for displayed equations. It also defines the TeX delimiters $$ a=b $$ for displayed equations, but it does not define $ a=b $ as in-line math delimiters.
+
+\( a=b \),$ a=b $,\\[ \frac{1}{n^{2}} \\],$$ a=b $$.
 
 ####win7系统
 
