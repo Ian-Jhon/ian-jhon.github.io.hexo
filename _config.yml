@@ -10,8 +10,11 @@ redcarpet:
 				"hard_wrap",
 				"autolink",
 				"prettify",
+				"highlight",
+				"strikethrough",
+				"no_intra_emphasis",
 				"tables" ]
-  # DON'T USE"superscript", "strikethrough", "with_toc_data", "highlight", "prettify", "no_intra_emphasis", never use this with Mathjax,this will cause bug
+  # DON'T USE"superscript", "with_toc_data", never use them with Mathjax, it will cause bug
 safe: false
 #pygments: false
 excerpt_separator: "\n\n\n"
