@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	{% include mathjax.html %}
     <meta charset='utf-8'>
     <title>{{ page.title }}</title>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
   </head>
   <body>
     <header>
-    {% include header.html %}
 <dvi> <h4>
 	<ul>
 	<span class="dt">____</span>	
