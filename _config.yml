@@ -5,7 +5,12 @@ baseurl: http://www.math-phys.science
 permalink: pretty
 markdown: redcarpet
 highlighter: pygments
-
+redcarpet:
+  extensions: [ "fenced_code_blocks",
+                "hard_wrap",
+                "autolink",
+                "tables" ]
+  # DON'T USE"superscript", "strikethrough", "with_toc_data", "highlight", "prettify", "no_intra_emphasis", never use this with Mathjax,this will cause bug
 safe: false
 #pygments: false
 excerpt_separator: "\n\n\n"
