@@ -17,9 +17,21 @@ mathjax设置教程[maruku](http://haixing-hu.github.io/programming/2013/09/20/h
 ####测试一下：
 
 >MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are `\( a=b \)` for in-line math, and `\[ a=b \]` for displayed equations. It also defines the TeX delimiters `$$ a=b $$` for displayed equations, but it does not define `$ a=b $` as in-line math delimiters.
-
-\( a=\sqrt{b} \),$ a=\sqrt{b} $,\\[ \frac{1}{n^{2}} \\],$$ \frac{1}{n^{2}} $$.
-
+#####行内公式
+例如：\( a=\sqrt{b} \),$ a=\sqrt{b} $
+#####行间公式
+例如：\\[ \frac{1}{n^{2}} \\],$$ \frac{1}{n^{2}} $$.
+#####方程组
+例如：
+$$
+\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}
+$$
 
 ####win7系统
 
