@@ -15,7 +15,8 @@ var articleList = [{% for post in site.posts %}
 <p>文章列表</p>
 <ul> 
 	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>  {% if post.categories != empty %} {{ post.category }} {% endif %} </li>
-		{{ post.excerpt | strip_html | strip_newlines | truncate:10 }} 
+		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
+ {% if post.categories != empty %} {{ post.category }} {% endif %} </li>
+		{{ post.excerpt | strip_html | strip_newlines | truncate:153 }} 
 	{% endfor %}
 </ul>
