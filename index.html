@@ -4,14 +4,14 @@ title: 博客首页
 --- 
 <h4>分类列表</h4>  
         <hr>  
-        {% for category in site.categories %}  
-        <li class="category_list_item"><a href="/showCategory.html?categoryName={{ category | first }}">{{ category | first }}</a> ({{ category | last | size }})  
-        </li>  
-        {% endfor %}
+	{% for category in site.categories %}  
+		<li class="category_list_item"><a href="/showCategory.html?categoryName={{ category | first }}">{{ category | first }}</a> ({{ category | last | size }})  
+	 	</li>  
+	{% endfor %}
 
 <p>文章列表</p>
-<ul> 
 	<hr>
+<ul> 
 	{% for post in site.posts %}
 		<li> {% if post.categories != empty %} {{ post.category }} {% endif %} {{ post.date | date_to_string }} 
 <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> 
