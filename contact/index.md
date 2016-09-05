@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 联系方式
 ---
 ####欢迎赐教：

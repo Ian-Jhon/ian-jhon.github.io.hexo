@@ -1,0 +1,18 @@
+---
+layout: subpage
+title: ［尝人生百味］
+--- 
+
+
+<p>文章列表</p>
+
+<ul> 
+	{% for post in site.posts %}
+		{% if post.category == page.title %}
+		 	<li> {{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> 
+			</li>
+		
+		{{ post.excerpt | strip_html | strip_newlines | truncate:153 }} 
+		 {% endif %} 
+	{% endfor %}
+</ul>
