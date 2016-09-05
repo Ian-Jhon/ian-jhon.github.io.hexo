@@ -4,7 +4,7 @@ title: 博客首页
 ---
 <h4>分类列表</h4>  
 var articleList = [{% for post in site.posts %}  
-        <span style="white-space:pre">    </span>{"title":"{{post.title}}",  
+        <span> style="white-space:pre"> </span>{"title":"{{post.title}}",  
             "url":"{{site.url}}{{post.url}}",  
     <span style="white-space:pre">    </span>   "date":"{{ post.date | date:'%Y-%m-%d' }}",  
             "excerpt": '{{ post.excerpt | strip_html | strip_newlines | truncate:170 }}'  
@@ -15,7 +15,7 @@ var articleList = [{% for post in site.posts %}
 <p>文章列表</p>
 <ul> 
 	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> {{ post.category }} </li>
-		{{ post.excerpt }} 
+		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>  {% if post.categories != empty %} {{ post.category }} {% endif %} </li>
+		{{ post.excerpt | strip_html | strip_newlines | truncate:10 }} 
 	{% endfor %}
 </ul>
