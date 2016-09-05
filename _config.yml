@@ -5,6 +5,7 @@ baseurl: http://www.math-phys.science
 permalink: pretty
 markdown: redcarpet
 highlighter: pygments
+#pygments: false
 redcarpet:
   extensions: [ "fenced_code_blocks",
 				"hard_wrap",
@@ -16,6 +17,6 @@ redcarpet:
 				"tables" ]
   # DON'T USE"superscript", "with_toc_data", never use them with Mathjax, it will cause bug
 safe: false
-#pygments: false
+
 excerpt_separator: "\n\n\n"
 #paginate: 5
