@@ -40,7 +40,9 @@
 
     <footer>
   <div>
+{% if post.category != empty %}
 <a href="{{ site.baseurl }}/{{ page.category }}">Go back</a>
+{% endif %}
 </div>
     </footer>
   </body>
