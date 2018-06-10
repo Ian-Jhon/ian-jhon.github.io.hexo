@@ -1,7 +1,7 @@
 
 
 
-# $$ \mathscr{ B } $$
+# $ \mathscr{ B } $
 
 
 ## 我的[Blog](https://ian-jhon.github.io)
