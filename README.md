@@ -23,9 +23,9 @@
 存放模板文件。文章模板、关于页面模板、首页模板。
 #### _posts:
 存放发布文章的文件。并且文章文件名要符合 **YEAR-MONTH-DAY-TITLE.MARKUP** 格式。
-####_site:
+#### _site:
 经过jekyll转化过的页面。
-####index_html:
+#### index_html:
 网站首页
-####other files:
+#### other files:
 其他文件，存放**css、js、images**等。
