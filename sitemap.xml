@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.math-phys.science/about/index.html</loc>
+    
+    <lastmod>2020-04-28T20:53:42.603Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/2016/09/02/markdown-test/</loc>
+    
+    <lastmod>2020-04-28T20:52:53.742Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.math-phys.science/404/index.html</loc>
     
-    <lastmod>2020-04-28T20:46:08.153Z</lastmod>
+    <lastmod>2020-04-28T20:51:06.534Z</lastmod>
     
   </url>
   
@@ -33,13 +47,6 @@
     <loc>http://www.math-phys.science/archives/index.html</loc>
     
     <lastmod>2020-04-28T20:35:00.377Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.math-phys.science/about/index.html</loc>
-    
-    <lastmod>2020-04-28T20:32:34.375Z</lastmod>
     
   </url>
   
