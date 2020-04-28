@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.math-phys.science/404/index.html</loc>
+    
+    <lastmod>2020-04-28T20:37:07.776Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/categories/index.html</loc>
+    
+    <lastmod>2020-04-28T20:36:57.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/tags/index.html</loc>
+    
+    <lastmod>2020-04-28T20:35:13.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/archives/index.html</loc>
+    
+    <lastmod>2020-04-28T20:35:00.377Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.math-phys.science/about/index.html</loc>
     
     <lastmod>2020-04-28T20:32:34.375Z</lastmod>
