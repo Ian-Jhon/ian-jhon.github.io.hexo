@@ -2,23 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.math-phys.science/contact/index.html</loc>
+    
+    <lastmod>2020-04-29T20:08:28.800Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.math-phys.science/about/index.html</loc>
     
-    <lastmod>2020-04-29T10:48:58.846Z</lastmod>
+    <lastmod>2020-04-29T20:07:39.580Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.math-phys.science/hello-world.html</loc>
     
-    <lastmod>2020-04-29T09:41:09.357Z</lastmod>
+    <lastmod>2020-04-29T18:29:27.213Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/categories/index.html</loc>
+    
+    <lastmod>2020-04-29T18:28:32.226Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/tags/index.html</loc>
+    
+    <lastmod>2020-04-29T18:28:14.915Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.math-phys.science/markdown-test.html</loc>
     
-    <lastmod>2020-04-29T09:39:53.972Z</lastmod>
+    <lastmod>2020-04-29T18:24:40.991Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.math-phys.science/photos/index.html</loc>
+    
+    <lastmod>2020-04-29T17:54:29.642Z</lastmod>
     
   </url>
   
@@ -37,30 +65,9 @@
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/categories/index.html</loc>
-    
-    <lastmod>2020-04-28T20:36:57.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.math-phys.science/tags/index.html</loc>
-    
-    <lastmod>2020-04-28T20:35:13.261Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.math-phys.science/archives/index.html</loc>
     
     <lastmod>2020-04-28T20:35:00.377Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.math-phys.science/contact/index.html</loc>
-    
-    <lastmod>2020-04-28T20:03:46.884Z</lastmod>
     
   </url>
   
