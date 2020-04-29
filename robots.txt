@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/ 
+Allow: /404/ 
+Disallow: /about/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /css/
+Disallow: /contact/
+Disallow: /vendors/
+Disallow: /images/
+Disallow: /comment/
+
+Sitemap: http://www.math-phys.science/sitemap.xml
+Sitemap: http://www.math-phys.science/baidusitemap.xml
