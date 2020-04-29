@@ -21,22 +21,17 @@
     var CONFIG = {"hostname":"www.math-phys.science","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="\begin{equation}\nonumber \boxed{E&#x3D;mc^2} \end{equation}">
+  <meta name="description" content="Ian和Cosy的部落">
 <meta property="og:type" content="website">
-<meta property="og:title" content="404：页面不存在">
-<meta property="og:url" content="http://www.math-phys.science/404/index.html">
+<meta property="og:title" content="数理科学小组">
+<meta property="og:url" content="http://www.math-phys.science/archives/2020/04/index.html">
 <meta property="og:site_name" content="数理科学小组">
-<meta property="og:description" content="\begin{equation}\nonumber \boxed{E&#x3D;mc^2} \end{equation}">
+<meta property="og:description" content="Ian和Cosy的部落">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d5/Pair_Annihilation.png">
-<meta property="og:image" content="http://p1.pstatp.com/large/pgc-image/3da1f542a568438f9c31800a8c62a757">
-<meta property="article:published_time" content="2020-04-28T14:37:07.000Z">
-<meta property="article:modified_time" content="2020-04-28T22:44:44.944Z">
 <meta property="article:author" content="Ian❤Cosy">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d5/Pair_Annihilation.png">
 
-<link rel="canonical" href="http://www.math-phys.science/404/">
+<link rel="canonical" href="http://www.math-phys.science/archives/2020/04/">
 
 
 <script id="page-configurations">
@@ -49,8 +44,7 @@
   };
 </script>
 
-  <title>404：页面不存在 | 数理科学小组
-</title>
+  <title>归档 | 数理科学小组</title>
   
 
 
@@ -168,47 +162,53 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content archive">
             
 
-    
-    
-    
-    <div class="post-block" lang="zh-CN">
-      <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
+      </div>
 
-<h1 class="post-title" itemprop="name headline">404：页面不存在
-</h1>
+      
+    <div class="collection-year">
+      <span class="collection-header">2020</span>
+    </div>
 
-<div class="post-meta">
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-04-28T16:47:47+08:00"
+              content="2020-04-28">
+          04-28
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/hello-world.html" itemprop="url">
+            <span itemprop="name">Hello World</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+
+    </div>
+  </div>
+  
+  
   
 
-</div>
+  
 
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Pair_Annihilation.png" class="" width="200" height="100" title="反物质湮灭">
-<script type="math/tex; mode=display">\begin{equation}\nonumber
-\boxed{E=mc^2}
-\end{equation}</script><p><img src="http://p1.pstatp.com/large/pgc-image/3da1f542a568438f9c31800a8c62a757" alt="质能方程"></p>
-
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -383,59 +383,6 @@
   
 
   
-      
-
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
