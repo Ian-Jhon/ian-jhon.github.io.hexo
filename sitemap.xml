@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.math-phys.science/hello-world.html</loc>
+    
+    <lastmod>2020-04-30T22:28:04.010Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.math-phys.science/markdown-test.html</loc>
     
-    <lastmod>2020-04-30T21:36:16.370Z</lastmod>
+    <lastmod>2020-04-30T22:17:17.055Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://www.math-phys.science/contact/index.html</loc>
     
     <lastmod>2020-04-29T20:08:28.800Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.math-phys.science/hello-world.html</loc>
-    
-    <lastmod>2020-04-29T18:29:27.213Z</lastmod>
     
   </url>
   
