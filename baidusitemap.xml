@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.math-phys.science/hello-world.html</loc>
+    <loc>http://www.math-phys.science/markdown-test.html</loc>
     <lastmod>2020-04-30</lastmod>
   </url>  <url>
-    <loc>http://www.math-phys.science/markdown-test.html</loc>
+    <loc>http://www.math-phys.science/hello-world.html</loc>
     <lastmod>2020-04-30</lastmod>
   </url>
 </urlset>
