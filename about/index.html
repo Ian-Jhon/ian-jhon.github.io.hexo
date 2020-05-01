@@ -24,7 +24,7 @@
   <meta name="description" content="博客搭建本博客通过hexo搭建，采用NexT主题，博客内容用markdown编辑，再由hexo自动生成html文件，发布在本博客上。 MarkdownMarkdown，文件扩展名通常为 “.md”，是一种语法非常简洁的标记语言，熟悉语法的人完全可以通过任何文本编辑器编辑，如txt文本编辑器Notepad，CSDN中曾介绍过几款不错的编辑器，如smark，Haroopad。 数学公式NexT支持Ma">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于本站">
-<meta property="og:url" content="http://www.math-phys.science/about/index.html">
+<meta property="og:url" content="https://www.math-phys.science/about/index.html">
 <meta property="og:site_name" content="数理科学小组">
 <meta property="og:description" content="博客搭建本博客通过hexo搭建，采用NexT主题，博客内容用markdown编辑，再由hexo自动生成html文件，发布在本博客上。 MarkdownMarkdown，文件扩展名通常为 “.md”，是一种语法非常简洁的标记语言，熟悉语法的人完全可以通过任何文本编辑器编辑，如txt文本编辑器Notepad，CSDN中曾介绍过几款不错的编辑器，如smark，Haroopad。 数学公式NexT支持Ma">
 <meta property="og:locale" content="zh_CN">
@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2548020-3406fb0ee1867d77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
-<link rel="canonical" href="http://www.math-phys.science/about/">
+<link rel="canonical" href="https://www.math-phys.science/about/">
 
 
 <script id="page-configurations">
@@ -362,13 +362,13 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -437,7 +437,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2 分钟</span>
+    <span title="站点阅读时长">1 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
@@ -636,6 +636,37 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://Ian-Cosy.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://www.math-phys.science/about/index.html";
+    this.page.identifier = "about/index.html";
+    this.page.title = "关于本站";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://Ian-Cosy.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
 <script>
@@ -654,37 +685,6 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
     gitalk.render('gitalk-container');
   }, window.Gitalk);
 });
-</script>
-
-<script>
-  function loadCount() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://Ian-Cosy.disqus.com/count.js';
-    s.id = 'dsq-count-scr';
-    (d.head || d.body).appendChild(s);
-  }
-  // defer loading until the whole page loading is completed
-  window.addEventListener('load', loadCount, false);
-</script>
-<script>
-  var disqus_config = function() {
-    this.page.url = "http://www.math-phys.science/about/index.html";
-    this.page.identifier = "about/index.html";
-    this.page.title = "关于本站";
-    };
-  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
-    if (window.DISQUS) {
-      DISQUS.reset({
-        reload: true,
-        config: disqus_config
-      });
-    } else {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://Ian-Cosy.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', '' + +new Date());
-      (d.head || d.body).appendChild(s);
-    }
-  });
 </script>
 
     </div>

@@ -2,77 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.math-phys.science/markdown-test.html</loc>
+    <loc>https://www.math-phys.science/blog-title.html</loc>
     
-    <lastmod>2020-04-30T23:09:34.757Z</lastmod>
+    <lastmod>2020-05-01T01:06:31.645Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/hello-world.html</loc>
+    <loc>https://www.math-phys.science/markdown-test.html</loc>
+    
+    <lastmod>2020-05-01T00:37:58.671Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.math-phys.science/hello-world.html</loc>
     
     <lastmod>2020-04-30T22:49:42.568Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/about/index.html</loc>
+    <loc>https://www.math-phys.science/about/index.html</loc>
     
     <lastmod>2020-04-30T21:18:36.336Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/404/index.html</loc>
+    <loc>https://www.math-phys.science/404/index.html</loc>
     
     <lastmod>2020-04-30T02:54:00.074Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/contact/index.html</loc>
+    <loc>https://www.math-phys.science/contact/index.html</loc>
     
     <lastmod>2020-04-29T20:08:28.800Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/categories/index.html</loc>
+    <loc>https://www.math-phys.science/categories/index.html</loc>
     
     <lastmod>2020-04-29T18:28:32.226Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/tags/index.html</loc>
+    <loc>https://www.math-phys.science/tags/index.html</loc>
     
     <lastmod>2020-04-29T18:28:14.915Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/photos/index.html</loc>
+    <loc>https://www.math-phys.science/photos/index.html</loc>
     
     <lastmod>2020-04-29T17:54:29.642Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/sitemap-xml/index.html</loc>
+    <loc>https://www.math-phys.science/sitemap-xml/index.html</loc>
     
     <lastmod>2020-04-28T20:39:37.254Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/archives/index.html</loc>
+    <loc>https://www.math-phys.science/archives/index.html</loc>
     
     <lastmod>2020-04-28T20:35:00.377Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.math-phys.science/comment/index.html</loc>
+    <loc>https://www.math-phys.science/comment/index.html</loc>
     
     <lastmod>2020-04-28T20:03:35.157Z</lastmod>
     
