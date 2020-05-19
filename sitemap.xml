@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.math-phys.science/about/index.html</loc>
+    
+    <lastmod>2020-05-06T18:34:21.998Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.math-phys.science/markdown-test.html</loc>
     
-    <lastmod>2020-05-01T23:30:02.036Z</lastmod>
+    <lastmod>2020-05-06T17:41:45.843Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.math-phys.science/Covid-2019.html</loc>
+    
+    <lastmod>2020-05-03T23:33:56.205Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.math-phys.science/photos/index.html</loc>
+    
+    <lastmod>2020-05-03T08:15:43.003Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.math-phys.science/links/index.html</loc>
+    
+    <lastmod>2020-05-02T16:42:24.405Z</lastmod>
     
   </url>
   
@@ -23,27 +51,6 @@
   </url>
   
   <url>
-    <loc>https://www.math-phys.science/blog-title.html</loc>
-    
-    <lastmod>2020-05-01T01:35:46.119Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.math-phys.science/hello-world.html</loc>
-    
-    <lastmod>2020-04-30T22:49:42.568Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.math-phys.science/about/index.html</loc>
-    
-    <lastmod>2020-04-30T21:18:36.336Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.math-phys.science/404/index.html</loc>
     
     <lastmod>2020-04-30T02:54:00.074Z</lastmod>
@@ -58,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://www.math-phys.science/photos/index.html</loc>
-    
-    <lastmod>2020-04-29T17:54:29.642Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.math-phys.science/sitemap-xml/index.html</loc>
     
     <lastmod>2020-04-28T20:39:37.254Z</lastmod>
@@ -75,13 +75,6 @@
     <loc>https://www.math-phys.science/archives/index.html</loc>
     
     <lastmod>2020-04-28T20:35:00.377Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.math-phys.science/comment/index.html</loc>
-    
-    <lastmod>2020-04-28T20:03:35.157Z</lastmod>
     
   </url>
   
