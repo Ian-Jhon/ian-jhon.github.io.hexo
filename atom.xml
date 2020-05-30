@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.math-phys.science/"/>
-  <updated>2020-05-03T23:33:56.205Z</updated>
+  <updated>2020-05-30T22:40:01.659Z</updated>
   <id>https://www.math-phys.science/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://www.math-phys.science/Birthday.html"/>
+    <id>https://www.math-phys.science/Birthday.html</id>
+    <published>2020-05-30T16:35:22.000Z</published>
+    <updated>2020-05-30T22:40:01.659Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。"><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="输入密码，查看文章：" /><label>输入密码，查看文章：</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ace77f034ea1ab6167a0567934e6838efdaefa1c9f1577f46160eac56e1217c7">2905843216cb3a09677e57ff0b8b804c29f767c1c047e37476b7f286b85fe336f728acb8a4a985b96535b0e451dd9b0260d1967981eb3b5ffd708195993abb651aa8b56b0ba156351f121cb780521325e20730370866a53da37a75aa24909f50a1e47625d3ebc655b8d01de154b43d6346a9c228bc539cafc6e8ff16b8d0007273bbd1899903e2f4c6c273ff5a9c6d29d015f5b19aedf0fcd1815bd436daffeaa244e1d1fe2de4856b79444e25731681e63a3aa450041dcd9083bd3257c5908eb15f49ff668b8fbad5e9dc18d6bfc4df1d02049523b8e8cb32dff8fc592850dd</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      本文修改自旧版博客的测试文章，用来测试
+    
+    </summary>
+    
+    
+      <category term="Love" scheme="https://www.math-phys.science/categories/Love/"/>
+    
+    
+      <category term="birthday" scheme="https://www.math-phys.science/tags/birthday/"/>
+    
+      <category term="cosy" scheme="https://www.math-phys.science/tags/cosy/"/>
+    
+      <category term="encryptAsDiary" scheme="https://www.math-phys.science/tags/encryptAsDiary/"/>
+    
+  </entry>
   
   <entry>
     <title>新冠疫情</title>
