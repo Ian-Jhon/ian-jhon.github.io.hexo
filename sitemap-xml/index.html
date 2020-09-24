@@ -6,9 +6,9 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/www.math-phys.science16x16.svg">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/www.math-phys.science-32x32.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/www.math-phys.science-16x16.svg">
+  <link rel="mask-icon" href="/images/www.math-phys.science.svg" color="#222">
   <meta name="baidu-site-verification" content="2PLSBRp0Vw">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -846,26 +846,6 @@ window.addEventListener('pjax:success', () => {
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : 'ab99766dfdc1b525d249',
-      clientSecret: '5cbd22f8cff4fb42166213f9594299af16da1508',
-      repo        : 'Ian-Cosy',
-      owner       : 'Ian-Jhon',
-      admin       : ['Ian-Jhon'],
-      id          : '2bcda99ac44a19d9836679159dc0242a',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
-
 <script>
   var disqus_config = function() {
     this.page.url = "https://www.math-phys.science/sitemap-xml/index.html";
@@ -885,6 +865,26 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       (d.head || d.body).appendChild(s);
     }
   });
+</script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'ab99766dfdc1b525d249',
+      clientSecret: '5cbd22f8cff4fb42166213f9594299af16da1508',
+      repo        : 'Ian-Cosy',
+      owner       : 'Ian-Jhon',
+      admin       : ['Ian-Jhon'],
+      id          : '2bcda99ac44a19d9836679159dc0242a',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
 </script>
 
     </div>
