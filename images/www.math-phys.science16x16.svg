@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="www.math-phys.science16x16.svg"
+   id="svg9"
+   version="1.1"
+   viewBox="0 0 300 300"
+   height="300"
+   width="300">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg9"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="150"
+     inkscape:cx="150"
+     inkscape:zoom="2.7666667"
+     showgrid="false"
+     id="namedview11"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <rect
+     style="stroke-width:1"
+     y="139.33333"
+     x="139.33333"
+     fill="#5488ba"
+     height="21.333332"
+     width="21.333332"
+     id="bg" />
+  <path
+     style="stroke-width:1"
+     id="path3"
+     fill="#dcafa3"
+     d="M 150,160.66667 Q 147.72385,152.27615 139.33333,150 147.72385,147.72385 150,139.33333 152.27615,147.72385 160.66667,150 152.27615,152.27615 150,160.66667 Z" />
+  <path
+     style="stroke-width:0.999999"
+     id="path5"
+     fill="#23505c"
+     d="M 150,160.66667 Q 147.98842,152.01158 139.33334,150 147.98842,147.98842 150,139.33334 152.01158,147.98842 160.66667,150 152.01158,152.01158 150,160.66667 Z" />
+  <path
+     style="stroke-width:1"
+     id="path7"
+     fill="#ab7745"
+     d="M 150,160.66667 Q 154.94445,145.05556 139.33334,150 154.94445,154.94445 150,139.33334 145.05556,154.94445 160.66667,150 145.05556,145.05556 150,160.66667 Z" />
+</svg>

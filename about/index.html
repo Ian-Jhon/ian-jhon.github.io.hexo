@@ -7,7 +7,7 @@
 <meta name="generator" content="Hexo 4.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/www.math-phys.science16x16.svg">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
   <meta name="baidu-site-verification" content="2PLSBRp0Vw">
 
@@ -963,6 +963,26 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'ab99766dfdc1b525d249',
+      clientSecret: '5cbd22f8cff4fb42166213f9594299af16da1508',
+      repo        : 'Ian-Cosy',
+      owner       : 'Ian-Jhon',
+      admin       : ['Ian-Jhon'],
+      id          : '3be7aa98d992907175cbd79c194399f2',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
 <script>
   var disqus_config = function() {
     this.page.url = "https://www.math-phys.science/about/index.html";
@@ -982,26 +1002,6 @@ window.addEventListener('pjax:success', () => {
       (d.head || d.body).appendChild(s);
     }
   });
-</script>
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : 'ab99766dfdc1b525d249',
-      clientSecret: '5cbd22f8cff4fb42166213f9594299af16da1508',
-      repo        : 'Ian-Cosy',
-      owner       : 'Ian-Jhon',
-      admin       : ['Ian-Jhon'],
-      id          : '3be7aa98d992907175cbd79c194399f2',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
 </script>
 
     </div>
